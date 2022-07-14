@@ -1,5 +1,4 @@
 //: [Previous](@previous)
-
 /*:
  ### 调用以指针作为参数的函数
  **调用以指针作为参数的函数时，可以通过隐式转换来传递兼容的指针类型，或者通过隐式桥接来传递指向变量的指针或者指向数组的指针。**
@@ -32,7 +31,6 @@ do {
     ///传递`[Type]`数组
     functionWithConstTypePointer([1,2,3,4])
 }
-
 /*:
  *当调用一个函数，它携带的指针参数为UnsafeRawPointer时，可以传递与UnsafePointer<Type>相同的参数，只不过没有了类型的限制:*
  */
@@ -60,7 +58,6 @@ do {
     functionWithConstRawPointer([1,2,3,4] as [Int16])
     functionWithConstRawPointer([1.0,2.0,3.0,4.0] as [Float])
 }
-
 /*:
  2. 可变指针作为参数
  *当调用一个函数，它携带的指针参数为UnsafeMutablePointer<Type>时，我们可以传递的参数有:*
@@ -68,7 +65,6 @@ do {
  * 该Type类型的可变的变量，属性或下标，通过在左侧添加取地址符&的形式传递给函数。（隐式桥接）
  * 一个Type类型的可变数组（[Type]），会以指向数组开头的指针传递给函数。（隐式桥接）
  */
-
 do {
     ///定义一个接收`UnsafeMutablePointer<Int8>`作为参数的函数
     func functionWithMutableTypePointer(_ p: UnsafeMutablePointer<Int8>) {
@@ -89,11 +85,9 @@ do {
     var c : [Int8] = [20,10,30,40]
     functionWithMutableTypePointer(&c)
 }
-
 /*:
  *同样的，当调用一个函数，它携带的指针参数为UnsafeMutableRawPointer时，可以传递与UnsafeMutablePointer<Type>相同的参数，只不过没有了类型的限制。*
  */
-
 do {
     ///定义一个接收`UnsafeMutableRawPointer`作为参数的函数
     func functionWithMutableRawPointer(_ p: UnsafeMutableRawPointer) {
@@ -118,11 +112,9 @@ do {
     var e : [Float] = [20.0,10.0,30.0,40.0]
     functionWithMutableRawPointer(&e)
 }
-
 /*:
  *通过隐式桥接实例或数组元素创建的指针只在被调用函数执行期间有效。 转义函数执行后要使用的指针是未定义的行为。 特别是，在调用UnsafePointer/UnsafeMutablePointer/UnsafeRawPointer/UnsafeMutableRawPointer initializer时，不要使用隐式桥接。*
  */
-
 do {
     var number = 5
     let numberPointer = UnsafePointer<Int>(&number)
@@ -143,7 +135,6 @@ do {
     let numberPointer = UnsafeMutableRawPointer(&number)
     // 访问 'numberPointer' 是未知行为.
 }
-
 /*:
  **未知行为可能会导致难以预知的bug**
  */
@@ -163,7 +154,6 @@ do {
     print(numberPointer.pointee) //7
     print(number)//7
 }
-
 /*:
  ### 访问指针
  **Swift中任意类型的值,Swift提供了全局函数直接访问它们的指针或内存中的字节。**
@@ -171,7 +161,6 @@ do {
  withUnsafePointer(to:_:) 只访问，不修改
  withUnsafeMutablePointer(to:_:) 可访问，可修改
  */
-
 do {
     ///只访问，不修改
     var temp : UInt32 = UInt32.max
@@ -190,11 +179,9 @@ do {
     }
     print(temp) ///[6, 5, 4]
 }
-
 /*:
  *Swift的值，如果需要通过指针的方式改变，则必须为变量，并且调用上述方法时必须将变量标记为inout参数，即变量左侧添加&。常量值，不能以inout参数的形式访问指针。*
  */
-
 // MARK: 错误示例一
 do {
     ///错误方式：访问&修改
@@ -204,11 +191,9 @@ do {
         mPointer.pointee = [6,5,4];
     }
 }
-
 /*:
  *一个闭包，它的唯一参数是一个指向值的指针。如果闭包有一个返回值，该值也被用作withUnsafePointer(to:_:)函数的返回值。 指针参数仅在函数执行期间有效。 试图通过将指针参数转换为UnsafeMutablePointer或任何其他可变指针类型来改变指针参数是未定义的行为。 如果需要通过指针改变参数，请使用withUnsafeMutablePointer(to:_:)代替。*
  */
-
 // MARK: 错误示例二:
 do {
     var tmp : [Int8] = [1,2,3,4]
@@ -231,7 +216,6 @@ do {
  withUnsafeBytes(of:_:) 只访问，不修改
  withUnsafeMutableBytes(of:_:) 可访问，可修改
  */
-
 do {
     ///只访问，不修改
     var temp : UInt32 = UInt32.max
@@ -252,7 +236,6 @@ do {
         //mutableRawBuffer[5] = 0;/// crash
     }
 }
-
 // MARK: 错误示例：
 do {
     ///访问&修改，此方式有风险，需要重点规避
@@ -269,7 +252,6 @@ do {
     }
     print(temp) ///255
 }
-
 /*:
  *一个闭包，它的唯一参数是指向值字节的原始缓冲区指针。 如果闭包有返回值，该值也被用作withUnsafeBytes(of:_:)函数的返回值。 缓冲区指针参数仅在闭包执行期间有效。 试图通过转换为UnsafeMutableRawBufferPointer或任何其他可变指针类型来通过指针进行变异是未定义的行为。 如果你想通过指针来改变一个值，请使用withUnsafeMutableBytes(of:_:)来代替。*
  */
