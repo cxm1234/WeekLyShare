@@ -1,17 +1,16 @@
+//: [Previous](@previous)
 /*:
  ## Swift内存布局
+ * MemoryLayout<T>.size  类型T需要的内存大小
+ * MemoryLayout<T>.alignment 内存对齐的基数
+ * MemoryLayout<T>.stride 类型T实际分配的内存大小(由于内存对齐原则，会多出空白的空间)
  */
+
+import Foundation
 
 /*:
  ### 查看Swift基本数据类型大小
  */
-
-//MemoryLayout<T>.size      // 类型T需要的内存大小
-//MemoryLayout<T>.stride    // 类型T实际分配的内存大小(由于内存对齐原则，会多出空白的空间)
-//MemoryLayout<T>.alignment  // 内存对齐的基数
-
-import Foundation
-
 do {
     MemoryLayout<Int>.size //Int类型，连续内存占用为8字节
     MemoryLayout<Int>.alignment // Int类型的内存对齐为8字节
@@ -40,7 +39,7 @@ do {
 }
 
 /*:
- ### 查看Swift枚举、结构体、类类型大小、对齐方式
+ ### 查看Swift枚举
  */
 
 do {
@@ -62,6 +61,13 @@ do {
     MemoryLayout<SampleEnum>.alignment //8
     MemoryLayout<SampleEnum>.stride //16
 
+}
+
+/*:
+ ### 结构体内存结构
+ */
+
+do {
     ///结构体
     struct emptyStruct {
     }
@@ -69,20 +75,40 @@ do {
     MemoryLayout<emptyStruct>.size //0
     MemoryLayout<emptyStruct>.alignment //1 ，所有地址都能被1整除，故可存在于任何地址，
     MemoryLayout<emptyStruct>.stride //1
+}
     
-//    struct SampleStruct {
-//        let b : Int
-//        let a : Bool
-//    }
+/*:
+ ![Struct Memory](struct-memory_1.png)
+ */
+do {
     struct SampleStruct {
         let a : Bool
         let b : Int
     }
     
-    MemoryLayout<SampleStruct>.size // 9 but b与a的位置颠倒后，便会是16
+    MemoryLayout<SampleStruct>.size // 9
     MemoryLayout<SampleStruct>.alignment // 8
     MemoryLayout<SampleStruct>.stride // 16
+}
 
+/*:
+ ![Struct Memory](struct-memory_2.png)
+ */
+do {
+    struct SampleStruct {
+        let b: Int
+        let a: Bool
+    }
+    MemoryLayout<SampleStruct>.size // 16
+    MemoryLayout<SampleStruct>.alignment // 8
+    MemoryLayout<SampleStruct>.stride // 16
+}
+
+/*:
+ ### 类类型
+ */
+
+do {
     class EmptyClass {}
     MemoryLayout<EmptyClass>.size//8
     MemoryLayout<EmptyClass>.alignment//8
@@ -96,3 +122,6 @@ do {
     MemoryLayout<SampleClass>.alignment//8
     MemoryLayout<SampleClass>.stride//8
 }
+
+//: [Next](@next)
+
