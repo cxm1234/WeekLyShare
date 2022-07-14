@@ -4,5 +4,6 @@
         <page name='Swift基础'/>
         <page name='Swift内存布局'/>
         <page name='Swift指针类型'/>
+        <page name='Swift指针参数函数'/>
     </pages>
 </playground>
