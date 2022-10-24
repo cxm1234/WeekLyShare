@@ -12,18 +12,18 @@ import Foundation
  */
 do {
     struct Foo {
-        let a: Int8 = 2
-        let b: Int16 = 4
-        let c: Int32 = 6
-        let d: Int = 8
-        let e: Int32 = 10
+//        let a: Int8 = 2
+//        let b: Int16 = 4
+//        let c: Int32 = 6
+//        let d: Int = 8
+//        let e: Int32 = 10
         
         func foo() {
             print("Hello")
         }
     }
 
-    let foo = Foo()
+    let foo = Foo().foo() // FOO_foo((^foo),smdl)
 
     print(MemoryLayout<Foo>.size)
     print(MemoryLayout<Foo>.alignment)
@@ -40,6 +40,7 @@ do {
         let str = "hello world hahhahahahhahahahhahha"
     }
     let foo2 = Foo2()
+    
     print(MemoryLayout<Foo2>.size)
 
     struct FooStr {

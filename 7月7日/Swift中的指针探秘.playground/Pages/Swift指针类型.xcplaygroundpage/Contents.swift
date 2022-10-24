@@ -1,6 +1,6 @@
 //: [Previous](@previous)
 /*:
- ## 指针分类
+ > ## 指针分类
  ### Swift中的不可变指针类型
  ![stateble_pointer_01](stateble_pointer_01.png)
  ### Swift中的可变指针类型
