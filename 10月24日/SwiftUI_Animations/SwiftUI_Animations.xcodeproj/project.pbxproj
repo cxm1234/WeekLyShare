@@ -20,8 +20,6 @@
 		3AACB3722907CA2D00AED802 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3712907CA2D00AED802 /* MyButton.swift */; };
 		3AACB3742907D20300AED802 /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3732907D20300AED802 /* Example4.swift */; };
 		3AACB3792907DBBD00AED802 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3782907DBBD00AED802 /* Example5.swift */; };
-		3AACB3822907E64500AED802 /* ClockShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3812907E64500AED802 /* ClockShape.swift */; };
-		3AACB3842907E67100AED802 /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3832907E67100AED802 /* ClockTime.swift */; };
 		3AACB3862907F38200AED802 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3852907F38100AED802 /* Example6.swift */; };
 		3AACB3892907F86600AED802 /* PetalShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3882907F86600AED802 /* PetalShape.swift */; };
 		3AACB38D2907FEB700AED802 /* FlowerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB38C2907FEB700AED802 /* FlowerColor.swift */; };
@@ -81,8 +79,6 @@
 		3AACB3712907CA2D00AED802 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		3AACB3732907D20300AED802 /* Example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4.swift; sourceTree = "<group>"; };
 		3AACB3782907DBBD00AED802 /* Example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5.swift; sourceTree = "<group>"; };
-		3AACB3812907E64500AED802 /* ClockShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockShape.swift; sourceTree = "<group>"; };
-		3AACB3832907E67100AED802 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
 		3AACB3852907F38100AED802 /* Example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example6.swift; sourceTree = "<group>"; };
 		3AACB3882907F86600AED802 /* PetalShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalShape.swift; sourceTree = "<group>"; };
 		3AACB38C2907FEB700AED802 /* FlowerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerColor.swift; sourceTree = "<group>"; };
@@ -204,7 +200,7 @@
 				3AACB36E2907C45900AED802 /* Example3.swift */,
 				3AACB3732907D20300AED802 /* Example4.swift */,
 				3AACB3782907DBBD00AED802 /* Example5.swift */,
-				3AACB3802907E45900AED802 /* ClockShape */,
+				3AACB3852907F38100AED802 /* Example6.swift */,
 				3AACB3872907F7FE00AED802 /* FlowerView */,
 			);
 			path = Examples;
@@ -216,16 +212,6 @@
 				3AACB3712907CA2D00AED802 /* MyButton.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		3AACB3802907E45900AED802 /* ClockShape */ = {
-			isa = PBXGroup;
-			children = (
-				3AACB3812907E64500AED802 /* ClockShape.swift */,
-				3AACB3832907E67100AED802 /* ClockTime.swift */,
-				3AACB3852907F38100AED802 /* Example6.swift */,
-			);
-			path = ClockShape;
 			sourceTree = "<group>";
 		};
 		3AACB3872907F7FE00AED802 /* FlowerView */ = {
@@ -478,11 +464,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AACB3822907E64500AED802 /* ClockShape.swift in Sources */,
 				3AE54DB12909229C00AAF2C1 /* Example16.swift in Sources */,
 				3AE54D8A2908356A00AAF2C1 /* Example8.swift in Sources */,
 				3AE54D8629082F4000AAF2C1 /* LabelView.swift in Sources */,
-				3AACB3842907E67100AED802 /* ClockTime.swift in Sources */,
 				3AE54D9B2909003700AAF2C1 /* Example11.swift in Sources */,
 				3AE54DAB29091EF600AAF2C1 /* Example14.swift in Sources */,
 				3AE54D88290830C600AAF2C1 /* SkewedOffset.swift in Sources */,
