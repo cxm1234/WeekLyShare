@@ -8,20 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var half = false
-    @State private var dim = false
+    @State private var selection: Tab = .partOne
+    
+    enum Tab {
+        case partOne
+        case partTwo
+        case partThree
+    }
     
     var body: some View {
-        Image("tower")
-            .scaleEffect(half ? 0.5 : 1.0)
-            .opacity(dim ? 0.5 : 1.0)
-            .onTapGesture {
-                self.half.toggle()
-                
-                withAnimation(.easeInOut(duration: 1.0)) {
-                    self.dim.toggle()
+        TabView(selection: $selection) {
+            PartOneGroup()
+                .tabItem {
+                    Label("Part One", systemImage: "star")
                 }
-            }
+                .tag(Tab.partOne)
+            
+            PartTwoGroup()
+                .tabItem {
+                    Label("Part Two", systemImage: "list.bullet")
+                }
+                .tag(Tab.partTwo)
+            
+            PartThreeGroup()
+                .tabItem {
+                    Label("Part Three", systemImage: "note")
+                }
+                .tag(Tab.partThree)
+        }
     }
 }
 
