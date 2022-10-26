@@ -22,15 +22,9 @@
 		3AACB3792907DBBD00AED802 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3782907DBBD00AED802 /* Example5.swift */; };
 		3AACB3862907F38200AED802 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3852907F38100AED802 /* Example6.swift */; };
 		3AE54D812908288E00AAF2C1 /* Example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D802908288E00AAF2C1 /* Example7.swift */; };
-		3AE54D8629082F4000AAF2C1 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D8529082F4000AAF2C1 /* LabelView.swift */; };
-		3AE54D88290830C600AAF2C1 /* SkewedOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D87290830C600AAF2C1 /* SkewedOffset.swift */; };
 		3AE54D8A2908356A00AAF2C1 /* Example8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D892908356A00AAF2C1 /* Example8.swift */; };
-		3AE54D8D2908CB2600AAF2C1 /* RotatingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D8C2908CB2600AAF2C1 /* RotatingCard.swift */; };
-		3AE54D8F2908CFDF00AAF2C1 /* FlipEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D8E2908CFDF00AAF2C1 /* FlipEffect.swift */; };
 		3AE54D912908D39600AAF2C1 /* Example9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D902908D39600AAF2C1 /* Example9.swift */; };
-		3AE54D942908D77E00AAF2C1 /* FollowEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D932908D77E00AAF2C1 /* FollowEffect.swift */; };
 		3AE54D962908DAB300AAF2C1 /* Example10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D952908DAB300AAF2C1 /* Example10.swift */; };
-		3AE54D982908DB9000AAF2C1 /* InfinityShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D972908DB9000AAF2C1 /* InfinityShape.swift */; };
 		3AE54D9B2909003700AAF2C1 /* Example11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D9A2909003700AAF2C1 /* Example11.swift */; };
 		3AE54D9D290907A000AAF2C1 /* PartOneGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D9C290907A000AAF2C1 /* PartOneGroup.swift */; };
 		3AE54D9F2909081000AAF2C1 /* PartTwoGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE54D9E2909081000AAF2C1 /* PartTwoGroup.swift */; };
@@ -78,15 +72,9 @@
 		3AACB3782907DBBD00AED802 /* Example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5.swift; sourceTree = "<group>"; };
 		3AACB3852907F38100AED802 /* Example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example6.swift; sourceTree = "<group>"; };
 		3AE54D802908288E00AAF2C1 /* Example7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example7.swift; sourceTree = "<group>"; };
-		3AE54D8529082F4000AAF2C1 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
-		3AE54D87290830C600AAF2C1 /* SkewedOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkewedOffset.swift; sourceTree = "<group>"; };
 		3AE54D892908356A00AAF2C1 /* Example8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example8.swift; sourceTree = "<group>"; };
-		3AE54D8C2908CB2600AAF2C1 /* RotatingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCard.swift; sourceTree = "<group>"; };
-		3AE54D8E2908CFDF00AAF2C1 /* FlipEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEffect.swift; sourceTree = "<group>"; };
 		3AE54D902908D39600AAF2C1 /* Example9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example9.swift; sourceTree = "<group>"; };
-		3AE54D932908D77E00AAF2C1 /* FollowEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowEffect.swift; sourceTree = "<group>"; };
 		3AE54D952908DAB300AAF2C1 /* Example10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example10.swift; sourceTree = "<group>"; };
-		3AE54D972908DB9000AAF2C1 /* InfinityShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityShape.swift; sourceTree = "<group>"; };
 		3AE54D9A2909003700AAF2C1 /* Example11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example11.swift; sourceTree = "<group>"; };
 		3AE54D9C290907A000AAF2C1 /* PartOneGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOneGroup.swift; sourceTree = "<group>"; };
 		3AE54D9E2909081000AAF2C1 /* PartTwoGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTwoGroup.swift; sourceTree = "<group>"; };
@@ -219,50 +207,12 @@
 		3AE54D8329082EC300AAF2C1 /* Part2_GeometryEffect */ = {
 			isa = PBXGroup;
 			children = (
-				3AE54D992908E36C00AAF2C1 /* Example11 */,
-				3AE54D922908D6C000AAF2C1 /* Example10 */,
-				3AE54D8B29083A0800AAF2C1 /* Example9 */,
-				3AE54D8429082F0D00AAF2C1 /* Example8 */,
-			);
-			path = Part2_GeometryEffect;
-			sourceTree = "<group>";
-		};
-		3AE54D8429082F0D00AAF2C1 /* Example8 */ = {
-			isa = PBXGroup;
-			children = (
-				3AE54D8529082F4000AAF2C1 /* LabelView.swift */,
-				3AE54D87290830C600AAF2C1 /* SkewedOffset.swift */,
 				3AE54D892908356A00AAF2C1 /* Example8.swift */,
-			);
-			path = Example8;
-			sourceTree = "<group>";
-		};
-		3AE54D8B29083A0800AAF2C1 /* Example9 */ = {
-			isa = PBXGroup;
-			children = (
-				3AE54D8C2908CB2600AAF2C1 /* RotatingCard.swift */,
-				3AE54D8E2908CFDF00AAF2C1 /* FlipEffect.swift */,
 				3AE54D902908D39600AAF2C1 /* Example9.swift */,
-			);
-			path = Example9;
-			sourceTree = "<group>";
-		};
-		3AE54D922908D6C000AAF2C1 /* Example10 */ = {
-			isa = PBXGroup;
-			children = (
-				3AE54D932908D77E00AAF2C1 /* FollowEffect.swift */,
 				3AE54D952908DAB300AAF2C1 /* Example10.swift */,
-				3AE54D972908DB9000AAF2C1 /* InfinityShape.swift */,
-			);
-			path = Example10;
-			sourceTree = "<group>";
-		};
-		3AE54D992908E36C00AAF2C1 /* Example11 */ = {
-			isa = PBXGroup;
-			children = (
 				3AE54D9A2909003700AAF2C1 /* Example11.swift */,
 			);
-			path = Example11;
+			path = Part2_GeometryEffect;
 			sourceTree = "<group>";
 		};
 		3AE54DA229090D6700AAF2C1 /* Part3_AnimatableModifier */ = {
@@ -449,31 +399,25 @@
 			files = (
 				3AE54DB12909229C00AAF2C1 /* Example16.swift in Sources */,
 				3AE54D8A2908356A00AAF2C1 /* Example8.swift in Sources */,
-				3AE54D8629082F4000AAF2C1 /* LabelView.swift in Sources */,
 				3AE54D9B2909003700AAF2C1 /* Example11.swift in Sources */,
 				3AE54DAB29091EF600AAF2C1 /* Example14.swift in Sources */,
-				3AE54D88290830C600AAF2C1 /* SkewedOffset.swift in Sources */,
 				3AE54D9F2909081000AAF2C1 /* PartTwoGroup.swift in Sources */,
 				3AE54D962908DAB300AAF2C1 /* Example10.swift in Sources */,
 				3A3DA2262906FCAF0009E362 /* ContentView.swift in Sources */,
-				3AE54D982908DB9000AAF2C1 /* InfinityShape.swift in Sources */,
 				3AACB3742907D20300AED802 /* Example4.swift in Sources */,
 				3AACB3722907CA2D00AED802 /* MyButton.swift in Sources */,
 				3AACB3622907940000AED802 /* Example1.swift in Sources */,
-				3AE54D8F2908CFDF00AAF2C1 /* FlipEffect.swift in Sources */,
 				3AE54D9D290907A000AAF2C1 /* PartOneGroup.swift in Sources */,
 				3A3DA2242906FCAF0009E362 /* SwiftUI_AnimationsApp.swift in Sources */,
 				3AACB3642907956800AED802 /* Example2.swift in Sources */,
 				3AE54DAE290921CD00AAF2C1 /* Example15.swift in Sources */,
 				3AACB36F2907C45900AED802 /* Example3.swift in Sources */,
 				3AACB3862907F38200AED802 /* Example6.swift in Sources */,
-				3AE54D942908D77E00AAF2C1 /* FollowEffect.swift in Sources */,
 				3AE54DA529090F5E00AAF2C1 /* Example12.swift in Sources */,
 				3AACB3792907DBBD00AED802 /* Example5.swift in Sources */,
 				3AE54DA8290916FE00AAF2C1 /* Example13.swift in Sources */,
 				3AE54D812908288E00AAF2C1 /* Example7.swift in Sources */,
 				3AE54D912908D39600AAF2C1 /* Example9.swift in Sources */,
-				3AE54D8D2908CB2600AAF2C1 /* RotatingCard.swift in Sources */,
 				3AE54DA129090A6500AAF2C1 /* PartThreeGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
