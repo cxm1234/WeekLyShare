@@ -6,7 +6,7 @@
  
  * [Paths](PartOne_Paths)
  * [GeometryEffects](PartTwo_GeometryEffects)
- 
+ * [AnimatableModifier](PartThree_AnimatableModifier)
  */
 
 /*:
@@ -111,7 +111,7 @@ for i in 0..<6 {
  参考例子Example7
  */
 
- 
+//: [Next](@next)
 
 
 
