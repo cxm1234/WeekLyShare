@@ -19,10 +19,7 @@
 		3AACB36F2907C45900AED802 /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB36E2907C45900AED802 /* Example3.swift */; };
 		3AACB3722907CA2D00AED802 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3712907CA2D00AED802 /* MyButton.swift */; };
 		3AACB3742907D20300AED802 /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3732907D20300AED802 /* Example4.swift */; };
-		3AACB3772907D77600AED802 /* Example5PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3762907D77600AED802 /* Example5PolygonShape.swift */; };
 		3AACB3792907DBBD00AED802 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3782907DBBD00AED802 /* Example5.swift */; };
-		3AACB37C2907E34A00AED802 /* Example3PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB37B2907E34A00AED802 /* Example3PolygonShape.swift */; };
-		3AACB37F2907E41300AED802 /* Example4PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB37E2907E41300AED802 /* Example4PolygonShape.swift */; };
 		3AACB3822907E64500AED802 /* ClockShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3812907E64500AED802 /* ClockShape.swift */; };
 		3AACB3842907E67100AED802 /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3832907E67100AED802 /* ClockTime.swift */; };
 		3AACB3862907F38200AED802 /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3852907F38100AED802 /* Example6.swift */; };
@@ -83,10 +80,7 @@
 		3AACB36E2907C45900AED802 /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
 		3AACB3712907CA2D00AED802 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		3AACB3732907D20300AED802 /* Example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4.swift; sourceTree = "<group>"; };
-		3AACB3762907D77600AED802 /* Example5PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5PolygonShape.swift; sourceTree = "<group>"; };
 		3AACB3782907DBBD00AED802 /* Example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5.swift; sourceTree = "<group>"; };
-		3AACB37B2907E34A00AED802 /* Example3PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3PolygonShape.swift; sourceTree = "<group>"; };
-		3AACB37E2907E41300AED802 /* Example4PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4PolygonShape.swift; sourceTree = "<group>"; };
 		3AACB3812907E64500AED802 /* ClockShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockShape.swift; sourceTree = "<group>"; };
 		3AACB3832907E67100AED802 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
 		3AACB3852907F38100AED802 /* Example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example6.swift; sourceTree = "<group>"; };
@@ -207,9 +201,9 @@
 			children = (
 				3AACB3612907940000AED802 /* Example1.swift */,
 				3AACB3632907956800AED802 /* Example2.swift */,
-				3AACB37A2907E31100AED802 /* Example3 */,
-				3AACB37D2907E3E200AED802 /* Example4 */,
-				3AACB3752907D75400AED802 /* Example5 */,
+				3AACB36E2907C45900AED802 /* Example3.swift */,
+				3AACB3732907D20300AED802 /* Example4.swift */,
+				3AACB3782907DBBD00AED802 /* Example5.swift */,
 				3AACB3802907E45900AED802 /* ClockShape */,
 				3AACB3872907F7FE00AED802 /* FlowerView */,
 			);
@@ -222,33 +216,6 @@
 				3AACB3712907CA2D00AED802 /* MyButton.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		3AACB3752907D75400AED802 /* Example5 */ = {
-			isa = PBXGroup;
-			children = (
-				3AACB3762907D77600AED802 /* Example5PolygonShape.swift */,
-				3AACB3782907DBBD00AED802 /* Example5.swift */,
-			);
-			path = Example5;
-			sourceTree = "<group>";
-		};
-		3AACB37A2907E31100AED802 /* Example3 */ = {
-			isa = PBXGroup;
-			children = (
-				3AACB36E2907C45900AED802 /* Example3.swift */,
-				3AACB37B2907E34A00AED802 /* Example3PolygonShape.swift */,
-			);
-			path = Example3;
-			sourceTree = "<group>";
-		};
-		3AACB37D2907E3E200AED802 /* Example4 */ = {
-			isa = PBXGroup;
-			children = (
-				3AACB3732907D20300AED802 /* Example4.swift */,
-				3AACB37E2907E41300AED802 /* Example4PolygonShape.swift */,
-			);
-			path = Example4;
 			sourceTree = "<group>";
 		};
 		3AACB3802907E45900AED802 /* ClockShape */ = {
@@ -519,13 +486,11 @@
 				3AE54D9B2909003700AAF2C1 /* Example11.swift in Sources */,
 				3AE54DAB29091EF600AAF2C1 /* Example14.swift in Sources */,
 				3AE54D88290830C600AAF2C1 /* SkewedOffset.swift in Sources */,
-				3AACB37C2907E34A00AED802 /* Example3PolygonShape.swift in Sources */,
 				3AE54D9F2909081000AAF2C1 /* PartTwoGroup.swift in Sources */,
 				3AACB3892907F86600AED802 /* PetalShape.swift in Sources */,
 				3AE54D962908DAB300AAF2C1 /* Example10.swift in Sources */,
 				3A3DA2262906FCAF0009E362 /* ContentView.swift in Sources */,
 				3AE54D982908DB9000AAF2C1 /* InfinityShape.swift in Sources */,
-				3AACB3772907D77600AED802 /* Example5PolygonShape.swift in Sources */,
 				3AACB3742907D20300AED802 /* Example4.swift in Sources */,
 				3AACB3722907CA2D00AED802 /* MyButton.swift in Sources */,
 				3AACB3622907940000AED802 /* Example1.swift in Sources */,
@@ -543,7 +508,6 @@
 				3AACB3792907DBBD00AED802 /* Example5.swift in Sources */,
 				3AE54DA8290916FE00AAF2C1 /* Example13.swift in Sources */,
 				3AE54D812908288E00AAF2C1 /* Example7.swift in Sources */,
-				3AACB37F2907E41300AED802 /* Example4PolygonShape.swift in Sources */,
 				3AE54D912908D39600AAF2C1 /* Example9.swift in Sources */,
 				3AE54D8D2908CB2600AAF2C1 /* RotatingCard.swift in Sources */,
 				3AE54DA129090A6500AAF2C1 /* PartThreeGroup.swift in Sources */,
