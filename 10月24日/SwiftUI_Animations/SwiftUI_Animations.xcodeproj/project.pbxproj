@@ -218,53 +218,13 @@
 		3AE54DA229090D6700AAF2C1 /* Part3_AnimatableModifier */ = {
 			isa = PBXGroup;
 			children = (
-				3AE54DAF2909226A00AAF2C1 /* Example16 */,
-				3AE54DAC2909218000AAF2C1 /* Example15 */,
-				3AE54DA929091E1500AAF2C1 /* Example14 */,
-				3AE54DA62909162B00AAF2C1 /* Example13 */,
-				3AE54DA329090F3A00AAF2C1 /* Example12 */,
-			);
-			path = Part3_AnimatableModifier;
-			sourceTree = "<group>";
-		};
-		3AE54DA329090F3A00AAF2C1 /* Example12 */ = {
-			isa = PBXGroup;
-			children = (
 				3AE54DA429090F5E00AAF2C1 /* Example12.swift */,
-			);
-			path = Example12;
-			sourceTree = "<group>";
-		};
-		3AE54DA62909162B00AAF2C1 /* Example13 */ = {
-			isa = PBXGroup;
-			children = (
 				3AE54DA7290916FE00AAF2C1 /* Example13.swift */,
-			);
-			path = Example13;
-			sourceTree = "<group>";
-		};
-		3AE54DA929091E1500AAF2C1 /* Example14 */ = {
-			isa = PBXGroup;
-			children = (
 				3AE54DAA29091EF600AAF2C1 /* Example14.swift */,
-			);
-			path = Example14;
-			sourceTree = "<group>";
-		};
-		3AE54DAC2909218000AAF2C1 /* Example15 */ = {
-			isa = PBXGroup;
-			children = (
 				3AE54DAD290921CD00AAF2C1 /* Example15.swift */,
-			);
-			path = Example15;
-			sourceTree = "<group>";
-		};
-		3AE54DAF2909226A00AAF2C1 /* Example16 */ = {
-			isa = PBXGroup;
-			children = (
 				3AE54DB02909229C00AAF2C1 /* Example16.swift */,
 			);
-			path = Example16;
+			path = Part3_AnimatableModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
