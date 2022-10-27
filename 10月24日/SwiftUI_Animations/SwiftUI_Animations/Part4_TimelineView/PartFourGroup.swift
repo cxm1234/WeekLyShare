@@ -28,6 +28,12 @@ struct PartFourGroup: View {
                 } label: {
                     Text("Example 19")
                 }
+                
+                NavigationLink {
+                    Example20()
+                } label: {
+                    Text("Example 20")
+                }
             }
         }
     }

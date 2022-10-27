@@ -18,6 +18,7 @@
 		3A4CCA1C290A33D800942F9C /* Example17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA1B290A33D800942F9C /* Example17.swift */; };
 		3A4CCA1E290A4AF700942F9C /* Example18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA1D290A4AF700942F9C /* Example18.swift */; };
 		3A4CCA20290A505000942F9C /* Example19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA1F290A505000942F9C /* Example19.swift */; };
+		3A4CCA22290A540700942F9C /* Example20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA21290A540700942F9C /* Example20.swift */; };
 		3AACB3622907940000AED802 /* Example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3612907940000AED802 /* Example1.swift */; };
 		3AACB3642907956800AED802 /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3632907956800AED802 /* Example2.swift */; };
 		3AACB36F2907C45900AED802 /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB36E2907C45900AED802 /* Example3.swift */; };
@@ -72,6 +73,7 @@
 		3A4CCA1B290A33D800942F9C /* Example17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example17.swift; sourceTree = "<group>"; };
 		3A4CCA1D290A4AF700942F9C /* Example18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example18.swift; sourceTree = "<group>"; };
 		3A4CCA1F290A505000942F9C /* Example19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example19.swift; sourceTree = "<group>"; };
+		3A4CCA21290A540700942F9C /* Example20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example20.swift; sourceTree = "<group>"; };
 		3AACB3612907940000AED802 /* Example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1.swift; sourceTree = "<group>"; };
 		3AACB3632907956800AED802 /* Example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
 		3AACB36E2907C45900AED802 /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				3A4CCA1B290A33D800942F9C /* Example17.swift */,
 				3A4CCA1D290A4AF700942F9C /* Example18.swift */,
 				3A4CCA1F290A505000942F9C /* Example19.swift */,
+				3A4CCA21290A540700942F9C /* Example20.swift */,
 			);
 			path = Part4_TimelineView;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				3A4CCA1C290A33D800942F9C /* Example17.swift in Sources */,
 				3A4CCA20290A505000942F9C /* Example19.swift in Sources */,
 				3AE54DA129090A6500AAF2C1 /* PartThreeGroup.swift in Sources */,
+				3A4CCA22290A540700942F9C /* Example20.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

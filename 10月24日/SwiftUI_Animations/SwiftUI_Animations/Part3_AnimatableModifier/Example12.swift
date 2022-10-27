@@ -14,7 +14,6 @@ struct Example12: View {
         VStack {
             Spacer()
             
-            // 
             Color.clear.overlay(Indicator(pct: self.percent))
             
             Spacer()
