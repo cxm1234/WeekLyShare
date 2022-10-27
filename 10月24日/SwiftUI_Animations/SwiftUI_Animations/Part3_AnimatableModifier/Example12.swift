@@ -13,6 +13,8 @@ struct Example12: View {
     var body: some View {
         VStack {
             Spacer()
+            
+            // 
             Color.clear.overlay(Indicator(pct: self.percent))
             
             Spacer()

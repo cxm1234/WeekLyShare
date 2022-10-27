@@ -174,20 +174,6 @@
 			path = SwiftUI_AnimationsUITests;
 			sourceTree = "<group>";
 		};
-		3AACB3602907936300AED802 /* Examples */ = {
-			isa = PBXGroup;
-			children = (
-				3AACB3612907940000AED802 /* Example1.swift */,
-				3AACB3632907956800AED802 /* Example2.swift */,
-				3AACB36E2907C45900AED802 /* Example3.swift */,
-				3AACB3732907D20300AED802 /* Example4.swift */,
-				3AACB3782907DBBD00AED802 /* Example5.swift */,
-				3AACB3852907F38100AED802 /* Example6.swift */,
-				3AE54D802908288E00AAF2C1 /* Example7.swift */,
-			);
-			path = Examples;
-			sourceTree = "<group>";
-		};
 		3AACB3652907B13000AED802 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +185,13 @@
 		3AE54D8229082E9500AAF2C1 /* Part1_Paths */ = {
 			isa = PBXGroup;
 			children = (
-				3AACB3602907936300AED802 /* Examples */,
+				3AACB3612907940000AED802 /* Example1.swift */,
+				3AACB3632907956800AED802 /* Example2.swift */,
+				3AACB36E2907C45900AED802 /* Example3.swift */,
+				3AACB3732907D20300AED802 /* Example4.swift */,
+				3AACB3782907DBBD00AED802 /* Example5.swift */,
+				3AACB3852907F38100AED802 /* Example6.swift */,
+				3AE54D802908288E00AAF2C1 /* Example7.swift */,
 			);
 			path = Part1_Paths;
 			sourceTree = "<group>";
