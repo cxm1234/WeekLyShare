@@ -30,9 +30,12 @@ struct RotatingCard: View {
         
         return VStack {
             Spacer()
-            Image(flipped ? "back" : images[imgIndex]).resizable()
+            Image(flipped ? "back" : images[imgIndex])
+                .resizable()
                 .frame(width: 212, height: 320)
-                .modifier(FlipEffect(flipped: binding, angle: animate3d ? 360 : 0, axis: (x: 1, y: 5)))
+                .modifier(
+                    FlipEffect(flipped: binding, angle: animate3d ? 360 : 0, axis: (x: 1, y: 5))
+                )
                 .rotationEffect(Angle(degrees: rotate ? 0 : 360))
                 .onAppear {
                     withAnimation(Animation.linear(duration: 4.0).repeatForever(autoreverses: false)) {

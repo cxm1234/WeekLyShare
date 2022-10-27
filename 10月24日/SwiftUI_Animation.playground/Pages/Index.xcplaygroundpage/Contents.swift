@@ -7,4 +7,5 @@
  * [Paths](PartOne_Paths)
  * [GeometryEffects](PartTwo_GeometryEffects)
  * [AnimatableModifier](PartThree_AnimatableModifier)
+ * [TimelineView](PartFour_TImelineView)
  */

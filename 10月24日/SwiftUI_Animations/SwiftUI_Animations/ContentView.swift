@@ -14,6 +14,7 @@ struct ContentView: View {
         case partOne
         case partTwo
         case partThree
+        case partFour
     }
     
     var body: some View {
@@ -35,6 +36,12 @@ struct ContentView: View {
                     Label("Part Three", systemImage: "note")
                 }
                 .tag(Tab.partThree)
+            
+            PartFourGroup()
+                .tabItem {
+                    Label("Part Four", systemImage: "pencil")
+                }
+                .tag(Tab.partFour)
         }
     }
 }

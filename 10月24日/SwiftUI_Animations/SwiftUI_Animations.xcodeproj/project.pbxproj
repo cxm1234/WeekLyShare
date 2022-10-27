@@ -14,6 +14,10 @@
 		3A3DA2352906FCB10009E362 /* SwiftUI_AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA2342906FCB10009E362 /* SwiftUI_AnimationsTests.swift */; };
 		3A3DA23F2906FCB10009E362 /* SwiftUI_AnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA23E2906FCB10009E362 /* SwiftUI_AnimationsUITests.swift */; };
 		3A3DA2412906FCB10009E362 /* SwiftUI_AnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA2402906FCB10009E362 /* SwiftUI_AnimationsUITestsLaunchTests.swift */; };
+		3A4CCA19290A334300942F9C /* PartFourGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA18290A334300942F9C /* PartFourGroup.swift */; };
+		3A4CCA1C290A33D800942F9C /* Example17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA1B290A33D800942F9C /* Example17.swift */; };
+		3A4CCA1E290A4AF700942F9C /* Example18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA1D290A4AF700942F9C /* Example18.swift */; };
+		3A4CCA20290A505000942F9C /* Example19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CCA1F290A505000942F9C /* Example19.swift */; };
 		3AACB3622907940000AED802 /* Example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3612907940000AED802 /* Example1.swift */; };
 		3AACB3642907956800AED802 /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB3632907956800AED802 /* Example2.swift */; };
 		3AACB36F2907C45900AED802 /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACB36E2907C45900AED802 /* Example3.swift */; };
@@ -64,6 +68,10 @@
 		3A3DA23A2906FCB10009E362 /* SwiftUI_AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3DA23E2906FCB10009E362 /* SwiftUI_AnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AnimationsUITests.swift; sourceTree = "<group>"; };
 		3A3DA2402906FCB10009E362 /* SwiftUI_AnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A4CCA18290A334300942F9C /* PartFourGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartFourGroup.swift; sourceTree = "<group>"; };
+		3A4CCA1B290A33D800942F9C /* Example17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example17.swift; sourceTree = "<group>"; };
+		3A4CCA1D290A4AF700942F9C /* Example18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example18.swift; sourceTree = "<group>"; };
+		3A4CCA1F290A505000942F9C /* Example19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example19.swift; sourceTree = "<group>"; };
 		3AACB3612907940000AED802 /* Example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1.swift; sourceTree = "<group>"; };
 		3AACB3632907956800AED802 /* Example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
 		3AACB36E2907C45900AED802 /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
@@ -134,6 +142,7 @@
 		3A3DA2222906FCAF0009E362 /* SwiftUI_Animations */ = {
 			isa = PBXGroup;
 			children = (
+				3A4CCA1A290A338D00942F9C /* Part4_TimelineView */,
 				3AE54DA229090D6700AAF2C1 /* Part3_AnimatableModifier */,
 				3AE54D8329082EC300AAF2C1 /* Part2_GeometryEffect */,
 				3AE54D8229082E9500AAF2C1 /* Part1_Paths */,
@@ -142,9 +151,6 @@
 				3A3DA2252906FCAF0009E362 /* ContentView.swift */,
 				3A3DA2272906FCB10009E362 /* Assets.xcassets */,
 				3A3DA2292906FCB10009E362 /* Preview Content */,
-				3AE54D9C290907A000AAF2C1 /* PartOneGroup.swift */,
-				3AE54D9E2909081000AAF2C1 /* PartTwoGroup.swift */,
-				3AE54DA029090A6500AAF2C1 /* PartThreeGroup.swift */,
 			);
 			path = SwiftUI_Animations;
 			sourceTree = "<group>";
@@ -174,6 +180,17 @@
 			path = SwiftUI_AnimationsUITests;
 			sourceTree = "<group>";
 		};
+		3A4CCA1A290A338D00942F9C /* Part4_TimelineView */ = {
+			isa = PBXGroup;
+			children = (
+				3A4CCA18290A334300942F9C /* PartFourGroup.swift */,
+				3A4CCA1B290A33D800942F9C /* Example17.swift */,
+				3A4CCA1D290A4AF700942F9C /* Example18.swift */,
+				3A4CCA1F290A505000942F9C /* Example19.swift */,
+			);
+			path = Part4_TimelineView;
+			sourceTree = "<group>";
+		};
 		3AACB3652907B13000AED802 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +202,7 @@
 		3AE54D8229082E9500AAF2C1 /* Part1_Paths */ = {
 			isa = PBXGroup;
 			children = (
+				3AE54D9C290907A000AAF2C1 /* PartOneGroup.swift */,
 				3AACB3612907940000AED802 /* Example1.swift */,
 				3AACB3632907956800AED802 /* Example2.swift */,
 				3AACB36E2907C45900AED802 /* Example3.swift */,
@@ -199,6 +217,7 @@
 		3AE54D8329082EC300AAF2C1 /* Part2_GeometryEffect */ = {
 			isa = PBXGroup;
 			children = (
+				3AE54D9E2909081000AAF2C1 /* PartTwoGroup.swift */,
 				3AE54D892908356A00AAF2C1 /* Example8.swift */,
 				3AE54D902908D39600AAF2C1 /* Example9.swift */,
 				3AE54D952908DAB300AAF2C1 /* Example10.swift */,
@@ -210,6 +229,7 @@
 		3AE54DA229090D6700AAF2C1 /* Part3_AnimatableModifier */ = {
 			isa = PBXGroup;
 			children = (
+				3AE54DA029090A6500AAF2C1 /* PartThreeGroup.swift */,
 				3AE54DA429090F5E00AAF2C1 /* Example12.swift */,
 				3AE54DA7290916FE00AAF2C1 /* Example13.swift */,
 				3AE54DAA29091EF600AAF2C1 /* Example14.swift */,
@@ -355,6 +375,7 @@
 				3AE54DAB29091EF600AAF2C1 /* Example14.swift in Sources */,
 				3AE54D9F2909081000AAF2C1 /* PartTwoGroup.swift in Sources */,
 				3AE54D962908DAB300AAF2C1 /* Example10.swift in Sources */,
+				3A4CCA19290A334300942F9C /* PartFourGroup.swift in Sources */,
 				3A3DA2262906FCAF0009E362 /* ContentView.swift in Sources */,
 				3AACB3742907D20300AED802 /* Example4.swift in Sources */,
 				3AACB3722907CA2D00AED802 /* MyButton.swift in Sources */,
@@ -366,10 +387,13 @@
 				3AACB36F2907C45900AED802 /* Example3.swift in Sources */,
 				3AACB3862907F38200AED802 /* Example6.swift in Sources */,
 				3AE54DA529090F5E00AAF2C1 /* Example12.swift in Sources */,
+				3A4CCA1E290A4AF700942F9C /* Example18.swift in Sources */,
 				3AACB3792907DBBD00AED802 /* Example5.swift in Sources */,
 				3AE54DA8290916FE00AAF2C1 /* Example13.swift in Sources */,
 				3AE54D812908288E00AAF2C1 /* Example7.swift in Sources */,
 				3AE54D912908D39600AAF2C1 /* Example9.swift in Sources */,
+				3A4CCA1C290A33D800942F9C /* Example17.swift in Sources */,
+				3A4CCA20290A505000942F9C /* Example19.swift in Sources */,
 				3AE54DA129090A6500AAF2C1 /* PartThreeGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
